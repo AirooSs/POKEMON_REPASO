@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body>
+
+    <h1>Pokedex</h1>
+
+    <table>
+        <tr>
+            <td>
+                <img class="pokemon" src="img/bulbasaur.png" alt="bulbasaur">
+                <p class="nombre">Bulbasaur</p>
+            </td>
+            <td>
+                <img class="pokemon" src="img/ivisaur.png" alt="ivisaur">
+                <p class="nombre">Ivisaur</p>
+            </td>
+            <td>
+                <img class="pokemon" src="img/venusaur.png" alt="venusaur">
+                <p class="nombre">Venusaur</p>
+            </td>
+            <td>
+                <img class="pokemon" src="img/charmander.png" alt="charmander">
+                <p class="nombre">Charmander</p>
+            </td>
+        </tr>
+        <tr id="con_imagen_de_fondo">
+            <td id="Charmeleon">
+
+                <p class="nombre">Charmeleon</p>
+            </td>
+            <td id="Charizard">
+
+                <p class="nombre">Charizard</p>
+            </td>
+            <td id="Squirtle">
+                <!-- SI LA CARPETA CSS  id="                <p class="nombre">Squirtle</p>"idISTIERA O LA IMG, SERIA ./img/imagen.png-->
+
+                <p class="nombre">Squirtle</p>
+            </td>
+            <td id="Wartortle">
+
+                <p class="nombre">Wartortle</p>
+            </td>
+        </tr>
+
+    </table>
+
+    <div id="formulario">
+        <form action="mailto:pepe@gmail.com">
+
+            <div class="elemento">
+                <label for="nombre">Nombre*:</label>
+                <input type="text" name="nombre" id="nombre" required>
+            </div>
+
+            <div class="elemento">
+                <label for="email">Email:*</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="elemento">
+                <label for="fnacimiento">Fecha de nacimiento:</label>
+                <input type="date" name="fnacimiento" id="fnacimiento">
+            </div>
+
+            <div class="elemento">
+                <input type="reset" value="Borrar">
+                <input type="submit" value="Enviar">
+
+            </div>
+
+        </form>
+
+        <div id="ejemplo_display">
+
+            <div class="dentro">1</div>
+            <div class="dentro">2</div>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>

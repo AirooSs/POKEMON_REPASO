@@ -1,0 +1,117 @@
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    /*Con font-face importo un tipo de letra y le pongo nombre*/
+    font-family: POKEMON;
+    src: url(Honk-Regular.ttf);
+}
+
+body {
+    background-image: url(img/fondo_pokemon.jpg);
+    background-size: cover;
+    /*OCUPO TODO EL ESPACIO DISPONIBLE*/
+    background-repeat: repeat;
+}
+
+table {
+    width: 80%;
+    border: 1px solid black;
+    margin: auto;
+
+}
+
+h1 {
+    font-family: POKEMON;
+    /*con font-family le pongo la tipografia que quiera*/
+    /*color: yellow;*/
+    text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+    text-align: center;
+}
+
+td {
+    background-color: lightgray;
+    width: 25%;
+    height: auto;
+    text-align: center;
+}
+
+img.pokemon {
+    width: 100%;
+}
+
+.nombre {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+td#Charmeleon {
+    background-image: url(img/charmeleon.png);
+
+}
+
+td#Charizard {
+    background-image: url(img/charizard.png);
+
+}
+
+td#Squirtle {
+    background-image: url(img/squirtle.png);
+
+}
+
+td#Wartortle {
+    background-image: url(img/wartortle.png);
+
+}
+
+tr#con_imagen_de_fondo {
+    height: 250px;
+}
+
+tr#con_imagen_de_fondo td {
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 10%;
+    /*Espacio desde el borde del contenedor al contenido*/
+    /*margin: espacio entre 2 contenedores*/
+    background-position: 50%;
+}
+
+/*FORMULARIO*/
+
+#formulario {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    color: white;
+    font-family: sans-serif;
+
+
+}
+
+#formulario .elemento label,
+.elemento input {
+    display: inline-block;
+    width: 5rem;
+
+}
+
+#ejemplo_display {
+    background-color: brown;
+    width: 70%;
+    height: 300px;
+    padding: 1rem;
+}
+
+.dentro {
+    width: 40%;
+    background-color: yellowgreen;
+    border: 1px solid red;
+    margin: 1rem;
+    display: inline-block;
+}
